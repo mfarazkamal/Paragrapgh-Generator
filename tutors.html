@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tutors - Tuition Bureau</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <style>
+      main {
+        margin: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      form {
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 18px;
+        margin-right: 10px;
+      }
+
+      select {
+        font-size: 16px;
+        padding: 5px;
+        margin-right: 10px;
+      }
+
+      button {
+        font-size: 16px;
+        padding: 5px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      li {
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER STARTS -->
+    <div class="header">
+      <div class="header-right-sec">
+        <!-- <a href="/">
+          <img class="logo-header" src="/Logo_Chegg_Web_EB7100.svg" alt="" />
+        </a> -->
+        <h3 class="logo-header">Tutors Bureau</h3>
+      </div>
+      <div class="header-middle-sec">
+        <div class="learn-page">
+          <a href="/signup.html">SIGNUP</a>
+        </div>
+        <div class="earn-page">
+          <a href="/tutors.html">TUTORS</a>
+        </div>
+        <div class="grow-page">
+          <a href="/features.html">FEATURES</a>
+        </div>
+      </div>
+      <div class="header-left-sec">
+        <a href="/login.html">LOGIN</a>
+      </div>
+    </div>
+    <!-- HEADER ENDS -->
+
+    <main>
+      <h1>Tutors</h1>
+      <form>
+        <label for="subject">Subject:</label>
+        <select id="subject">
+          <option value="">--Select Subject--</option>
+          <option value="maths">Maths</option>
+          <option value="science">Science</option>
+          <option value="english">English</option>
+          <option value="history">History</option>
+          <option value="geography">Geography</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <ul>
+        <li>
+          <h2>Tutor Name 1</h2>
+          <p>Subject: Maths</p>
+          <p>Experience: 5 years</p>
+          <p>Location: New York</p>
+          <p>Availability: Monday to Friday, 5pm - 8pm</p>
+          <button>View Profile</button>
+        </li>
+        <li>
+          <h2>Tutor Name 2</h2>
+          <p>Subject: Science</p>
+          <p>Experience: 3 years</p>
+          <p>Location: Los Angeles</p>
+          <p>Availability: Saturday and Sunday, 10am - 12pm</p>
+          <button>View Profile</button>
+        </li>
+        <!-- Add more tutor listings here -->
+      </ul>
+    </main>
+    <footer>
+      <p>&copy; 2023 Tuition Bureau. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

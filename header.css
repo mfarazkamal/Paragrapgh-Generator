@@ -1,0 +1,74 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 60px;
+  z-index: 200;
+}
+
+.logo-header {
+  width: 185px;
+  text-transform: uppercase;
+  color: #eb7100;
+  font-weight: 900;
+}
+
+.header-right-sec {
+  margin-left: 190px;
+  flex: 1;
+}
+
+.header-middle-sec {
+  display: flex;
+  flex: 2;
+  font-weight: 500;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(69, 69, 69);
+}
+
+.learn-page {
+  margin-left: 320px;
+}
+
+.learn-page a {
+  text-decoration: none;
+}
+
+.earn-page {
+  margin-left: 50px;
+}
+
+.earn-page a {
+  text-decoration: none;
+}
+
+.grow-page {
+  margin-left: 50px;
+}
+
+.grow-page a {
+  text-decoration: none;
+}
+
+.header-left-sec {
+  display: flex;
+  flex: 3;
+  justify-content: end;
+  margin-right: 230px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.header-left-sec a {
+  text-decoration: none;
+}

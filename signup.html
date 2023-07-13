@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signup - Education Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- HEADER STARTS -->
+    <div class="header">
+      <div class="header-right-sec">
+        <!-- <a href="/">
+          <img class="logo-header" src="/Logo_Chegg_Web_EB7100.svg" alt="" />
+        </a> -->
+        <h3 class="logo-header">Tutors Bureau</h3>
+      </div>
+      <div class="header-middle-sec">
+        <div class="learn-page">
+          <a href="/signup.html">SIGNUP</a>
+        </div>
+        <div class="earn-page">
+          <a href="/tutors.html">TUTORS</a>
+        </div>
+        <div class="grow-page">
+          <a href="/features.html">FEATURES</a>
+        </div>
+      </div>
+      <div class="header-left-sec">
+        <a href="/login.html">LOGIN</a>
+      </div>
+    </div>
+    <!-- HEADER ENDS -->
+
+    <main>
+      <h1>Signup</h1>
+      <form>
+        <label for="user-type">Are you a student or tutor?</label>
+        <select id="user-type" name="user-type">
+          <option value="student">Student</option>
+          <option value="tutor">Tutor</option>
+        </select>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" />
+        <button type="submit">Sign up</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Log in</a></p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Education Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

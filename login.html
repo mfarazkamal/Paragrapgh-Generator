@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login - Education Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      main {
+        margin: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #b0abab;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="date"],
+      select {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #eee;
+      }
+
+      button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #ddd;
+        color: #333;
+      }
+
+      p {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      a {
+        color: #333;
+        text-decoration: underline;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- HEADER STARTS -->
+    <div class="header">
+      <div class="header-right-sec">
+        <!-- <a href="/">
+          <img class="logo-header" src="/Logo_Chegg_Web_EB7100.svg" alt="" />
+        </a> -->
+        <h3 class="logo-header">Tutors Bureau</h3>
+      </div>
+      <div class="header-middle-sec">
+        <div class="learn-page">
+          <a href="/signup.html">SIGNUP</a>
+        </div>
+        <div class="earn-page">
+          <a href="/tutors.html">TUTORS</a>
+        </div>
+        <div class="grow-page">
+          <a href="/features.html">FEATURES</a>
+        </div>
+      </div>
+      <div class="header-left-sec">
+        <a href="/login.html">LOGIN</a>
+      </div>
+    </div>
+    <!-- HEADER ENDS -->
+
+    <main>
+      <h1>Login</h1>
+      <form>
+        <label for="email-username">Email or Username:</label>
+        <input type="text" id="email-username" name="email-username" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Log in</button>
+      </form>
+      <p>Don't have an account yet? <a href="signup.html">Sign up</a></p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Education Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
